@@ -21,7 +21,7 @@ jobs:
             pkgarch: mips_24kc
             target: ath79
             subtarget: generic
-            vermagic: "a52d81023a16a3ed9e71475f4dae0d8f"
+            vermagic: "da89f936189e8280762513898b74a850"
           - tag: "23.05.4"
             pkgarch: i386_pentium-mmx
             target: x86
