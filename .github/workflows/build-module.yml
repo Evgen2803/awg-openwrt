@@ -17,16 +17,16 @@ jobs:
             target: x86
             subtarget: 64
             vermagic: "59d1431675acc6823a33c7eb2323daeb"
-          - tag: "23.05.0"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
-          - tag: "23.05.2"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
+          - tag: "23.05.4"
+            pkgarch: mips_24kc
+            target: ath79
+            subtarget: generic
+            vermagic: "a52d81023a16a3ed9e71475f4dae0d8f"
+          - tag: "23.05.4"
+            pkgarch: i386_pentium-mmx
+            target: x86
+            subtarget: geode
+            vermagic: "b3543f1069dd60063331f31ae6ccc0e1"
 
     steps:
       - uses: actions/checkout@v4
