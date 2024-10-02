@@ -26,7 +26,7 @@ jobs:
             pkgarch: i386_pentium-mmx
             target: x86
             subtarget: geode
-            vermagic: "b3543f1069dd60063331f31ae6ccc0e1"
+            vermagic: "a69c02a9041be2ec9932b881b2c80b77"
 
     steps:
       - uses: actions/checkout@v4
